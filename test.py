@@ -1,2 +1,6 @@
-a = "This is my name"
-print(a[::-1])
+a = 9
+
+for i in range(1,a+1):
+    for j in range(i):
+        print("*",end="")
+    print()
